@@ -100,10 +100,11 @@ conda install lightning==2.3.0 -c conda-forge
 pip install -r requirements.txt
 ```
 
-- Install ffmpeg:
+- Install ffmpeg and opengl:
 
 ```sh
 sudo apt install ffmpeg
+sudo apt install libglfw3-dev libgles2-mesa-dev
 ```
 
 Download pretrained Zero123XL weights into `load/zero123`:
